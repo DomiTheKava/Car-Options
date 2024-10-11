@@ -12,10 +12,12 @@
 		10E07DD72C98AF5F00C25182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E07DD62C98AF5F00C25182 /* ViewController.swift */; };
 		10E07DDA2C98AF5F00C25182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E07DD82C98AF5F00C25182 /* Main.storyboard */; };
 		10E07DDC2C98AF6100C25182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E07DDB2C98AF6100C25182 /* Assets.xcassets */; };
-		10E07DDF2C98AF6100C25182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E07DDD2C98AF6100C25182 /* LaunchScreen.storyboard */; };
 		10E07DEA2C98AF6100C25182 /* Car_OptionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E07DE92C98AF6100C25182 /* Car_OptionsTests.swift */; };
 		10E07DF42C98AF6100C25182 /* Car_OptionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E07DF32C98AF6100C25182 /* Car_OptionsUITests.swift */; };
 		10E07DF62C98AF6100C25182 /* Car_OptionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E07DF52C98AF6100C25182 /* Car_OptionsUITestsLaunchTests.swift */; };
+		10E07E082C9FCE3200C25182 /* customize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E07E072C9FCE3200C25182 /* customize.storyboard */; };
+		10E07E0A2C9FCE4B00C25182 /* customizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E07E092C9FCE4B00C25182 /* customizeViewController.swift */; };
+		10EB437D2CB5C7740048B5C4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB437C2CB5C7740048B5C4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +44,15 @@
 		10E07DD62C98AF5F00C25182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10E07DD92C98AF5F00C25182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10E07DDB2C98AF6100C25182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10E07DDE2C98AF6100C25182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10E07DE02C98AF6100C25182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10E07DE52C98AF6100C25182 /* Car OptionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car OptionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E07DE92C98AF6100C25182 /* Car_OptionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_OptionsTests.swift; sourceTree = "<group>"; };
 		10E07DEF2C98AF6100C25182 /* Car OptionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car OptionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E07DF32C98AF6100C25182 /* Car_OptionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_OptionsUITests.swift; sourceTree = "<group>"; };
 		10E07DF52C98AF6100C25182 /* Car_OptionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_OptionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10E07E072C9FCE3200C25182 /* customize.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = customize.storyboard; sourceTree = "<group>"; };
+		10E07E092C9FCE4B00C25182 /* customizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizeViewController.swift; sourceTree = "<group>"; };
+		10EB437C2CB5C7740048B5C4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,14 @@
 		10E07DD12C98AF5F00C25182 /* Car Options */ = {
 			isa = PBXGroup;
 			children = (
+				10E07E062C9FCE1500C25182 /* customizations */,
 				10E07DD22C98AF5F00C25182 /* AppDelegate.swift */,
 				10E07DD42C98AF5F00C25182 /* SceneDelegate.swift */,
 				10E07DD62C98AF5F00C25182 /* ViewController.swift */,
 				10E07DD82C98AF5F00C25182 /* Main.storyboard */,
 				10E07DDB2C98AF6100C25182 /* Assets.xcassets */,
-				10E07DDD2C98AF6100C25182 /* LaunchScreen.storyboard */,
 				10E07DE02C98AF6100C25182 /* Info.plist */,
+				10EB437C2CB5C7740048B5C4 /* SecondViewController.swift */,
 			);
 			path = "Car Options";
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 				10E07DF52C98AF6100C25182 /* Car_OptionsUITestsLaunchTests.swift */,
 			);
 			path = "Car OptionsUITests";
+			sourceTree = "<group>";
+		};
+		10E07E062C9FCE1500C25182 /* customizations */ = {
+			isa = PBXGroup;
+			children = (
+				10E07E072C9FCE3200C25182 /* customize.storyboard */,
+				10E07E092C9FCE4B00C25182 /* customizeViewController.swift */,
+			);
+			path = customizations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10E07DDF2C98AF6100C25182 /* LaunchScreen.storyboard in Resources */,
+				10E07E082C9FCE3200C25182 /* customize.storyboard in Resources */,
 				10E07DDC2C98AF6100C25182 /* Assets.xcassets in Resources */,
 				10E07DDA2C98AF5F00C25182 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +274,8 @@
 			files = (
 				10E07DD72C98AF5F00C25182 /* ViewController.swift in Sources */,
 				10E07DD32C98AF5F00C25182 /* AppDelegate.swift in Sources */,
+				10E07E0A2C9FCE4B00C25182 /* customizeViewController.swift in Sources */,
+				10EB437D2CB5C7740048B5C4 /* SecondViewController.swift in Sources */,
 				10E07DD52C98AF5F00C25182 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +319,6 @@
 				10E07DD92C98AF5F00C25182 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		10E07DDD2C98AF6100C25182 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10E07DDE2C98AF6100C25182 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
